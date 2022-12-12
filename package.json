@@ -1,0 +1,17 @@
+{
+  "name": "apigateway",
+  "version": "1.0.0",
+  "description": "API Gateway for MyAsset365",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon gateway.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
